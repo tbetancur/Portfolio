@@ -1,67 +1,57 @@
-' Portafolio de análisis de datos en IGaming
+IGaming Data Analysis Portfolio
 
-Proyecto: Predicción de Abandono y Análisis de Cohortes
+Project: Dropout Prediction and Cohort Analysis
 
-Soy un analista de datos especializado en la industria de iGaming, con experiencia en la extracción de insights clave para optimizar la retención de jugadores y predecir comportamientos. Utilizo herramientas de Machine Learning y visualización de datos para ofrecer soluciones estratégicas.
+I am a data analyst specializing in the iGaming industry, with expertise in extracting key insights to optimize player retention and predict behaviors. I use Machine Learning tools and data visualization to deliver strategic solutions.
 
-Objetivo
-Predecir la probabilidad de que un jugador abandone la plataforma.
-Analizar cohortes de jugadores para entender la retención a lo largo del tiempo.
+Objective Predict the probability of a player leaving the platform. Analyze cohorts of players to understand retention over time.
 
-Tecnologías Utilizadas
-Python (pandas, numpy, seaborn, matplotlib, scikit-learn, lifetimes)
-Google Colab para desarrollo y ejecución del código
-Machine Learning con Random Forest
-Análisis de Cohortes con tablas de retención
+Technologies Used 
+Python (pandas, numpy, seaborn, matplotlib, scikit-learn, lifetimes) 
+Google Colab for code development and execution Machine Learning with Random Forest Cohort analysis with retention tables.
+
+1.2 Model Training
+
+A Random Forest Classifier was used with 80% of data for training and 20% for testing.
+
+1.3 Model Evaluation
+
+Model accuracy: It was evaluated with the accuracy_score metric.
+Confusion matrix: To visualize correct and incorrect predictions.
+Classification report: To measure accuracy, recall and F1-score.
+
+Results: The model performed satisfactorily in predicting dropout, allowing segmenting at-risk players and generating retention strategies.
+
+Cohort Analysis
+2.1 Cohort Definition
+
+Players were grouped according to the month of registration and their activity in the following months was analyzed.
+
+2.2 Creation of the Cohort Table
+A cohort chart was generated with player retention over time.
+
+2.3 Heatmap visualization
+
+A retention heatmap was used, where:
+
+Rows = Month of player registration.
+Columns = Month of activity.
+Values = % of players still active.
+
+Results: Patterns of abandonment and key months in which players are most at risk of leaving the platform were identified. This allows us to implement personalized engagement strategies.
+
+Conclusions and Lessons Learned
+
+Players with higher activity and spend have a lower dropout rate, suggesting that incentivizing early engagement improves retention.
+Cohort data shows a steady decline in retention, highlighting the need for loyalty campaigns at key moments.
+Machine Learning models can predict with good accuracy which players are at risk of dropping out, allowing recovery strategies to be customized.
+It is advisable to combine user segmentation strategies with predictive models to optimize business performance in iGaming.
 
 
-1.2 Entrenamiento del Modelo
 
-Se utilizó un Random Forest Classifier con un 80% de datos para entrenamiento y 20% para prueba.
-
-1.3 Evaluación del Modelo
-
-Precisión del modelo: Se evaluó con la métrica accuracy_score.
-
-Matriz de confusión: Para visualizar predicciones correctas e incorrectas.
-
-Reporte de clasificación: Para medir precisión, recall y F1-score.
-
-Resultados:
-El modelo tuvo un desempeño satisfactorio en la predicción de abandono, permitiendo segmentar jugadores en riesgo y generar estrategias de retención.
-
-2. Análisis de Cohortes
-
-2.1 Definición de Cohortes
-
-Se agruparon los jugadores según el mes de registro y se analizó su actividad en los meses siguientes.
-
-2.2 Creación de la Tabla de Cohortes
-
-Se generó una tabla de cohortes con la retención de jugadores a lo largo del tiempo.
-
-2.3 Visualización con Heatmap
-
-Se usó un heatmap de retención, donde:
-
-Filas = Mes de registro de los jugadores.
-
-Columnas = Mes de actividad.
-
-Valores = % de jugadores que siguen activos.
-
-Resultados:
-Se identificaron patrones de abandono y meses clave en los que los jugadores tienen mayor riesgo de dejar la plataforma. Esto permite implementar estrategias de engagement personalizadas.
-
-Conclusiones y Aprendizajes
-
-Los jugadores con mayor actividad y gasto tienen una menor tasa de abandono, lo que sugiere que incentivar el engagement temprano mejora la retención.
-
-Los datos de cohortes muestran una disminución constante en la retención, lo que destaca la necesidad de campañas de fidelización en momentos clave.
-
-Los modelos de Machine Learning pueden predecir con una buena precisión los jugadores en riesgo de abandono, lo que permite personalizar estrategias de recuperación.
-
-Es recomendable combinar estrategias de segmentación de usuarios con modelos predictivos para optimizar el rendimiento del negocio en iGaming.
+📧 Email: betancurtm93@gmail.com.com
+🔗 LinkedIn: linkedin.com/in/tatiana-betancur
+📂 GitHub: github.com/tbetancur
 
 
 📧 Email: betancurtm93@gmail.com.com
