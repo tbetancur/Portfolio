@@ -1,8 +1,8 @@
-#IGaming Data Analysis Portfolio
+IGaming Data Analysis Portfolio
 
-##Project: Dropout Prediction and Cohort Analysis
+Project: Dropout Prediction and Cohort Analysis
 
-###About
+About
 Hi, I'm Tatiana! I have a strong background in Health Information Systems and a specialization in Analytics. Throughout my career, I have developed technical and analytical expertise, enabling me to leverage data to optimize processes and improve operational efficiency in the healthcare sector.
 
 I contributed significantly to the development of systems that enhanced operational efficiency by automating key processes and ensuring coordinated execution. I also conducted impactful research on the importance of physical activity within the community, providing statistical analyses that supported initiatives aimed at improving health and wellness.
