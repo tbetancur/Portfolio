@@ -1,31 +1,58 @@
 IGaming Data Analysis Portfolio
-Project: Dropout Prediction and Cohort Analysis
+1. Introduction
+In this analysis, data from an Igaming platform have been used to explore patterns of user betting behavior. 
+The main objective is to understand the dynamics of betting, players' winnings and losses, and the performance of different types of games. Data from bets placed on different types of games such as roulette, blackjack, and slot machines were analyzed with the intention of identifying trends that can be used to improve player experience, marketing strategies, and business decisions.
 
-Objective Predict the probability of a player leaving the platform. Analyze cohorts of players to understand retention over time.
+2. Objectives of the Study
+The study has the following key objectives:
 
-Technologies Used Python (pandas, numpy, seaborn, matplotlib, scikit-learn, lifetimes) Google Colab for code development and execution 
-Machine Learning with Random Forest Cohort analysis with retention tables.
+Identify the total amount wagered per user: Analyze the bets placed by each user and their distribution.
+Evaluate the win rate per user: Calculate the percentage of bets won versus lost for each player.
+Examine betting behavior by game type: Evaluate how much is wagered on each game type to identify which are the most popular or profitable.
+Determine betting trends over time: Analyze betting by date to identify temporal patterns, such as peak days and times.
+Compare winning vs. losing results: Analyze the relationship between winning and losing bets for each user and game type.
 
-1.2 Model Training
-A Random Forest Classifier was used with 80% of data for training and 20% for testing.
-1.3 Model Evaluation
-Model accuracy: It was evaluated with the accuracy_score metric. Confusion matrix: To visualize correct and incorrect predictions. 
-Classification report: To measure accuracy, recall and F1-score.
-Results: The model performed satisfactorily in predicting dropout, allowing segmenting at-risk players and generating retention strategies.
+Methodology
+The Igaming dataset downloaded from Kaggle, which contains information on bets placed by users in various gaming sessions, was used.
+The analysis was performed using tools such as Google Colab (for Python), SQL (for database queries and analysis), and Power BI (for interactive data visualization).
 
-Cohort Analysis
-2.1 Cohort Definition
-Players were grouped according to the month of registration and their activity in the following months was analyzed.
-2.2 Creation of the Cohort Table A cohort chart was generated with player retention over time.
-2.3 Heatmap visualization
+Tools used:
+Google Colab: To perform analysis and visualizations in Python using libraries such as pandas, matplotlib, and seaborn.
+Power BI: To create interactive visualizations and advanced data analysis.
+SQL: To perform direct queries to the database (simulated or loaded into a database management system).
 
-A retention heatmap was used, where:
-Rows = Month of player registration. Columns = Month of activity. Values = % of players still active.
-Results: Patterns of abandonment and key months in which players are most at risk of leaving the platform were identified. 
-This allows us to implement personalized engagement strategies.
+4. Results
+4.1. Total amount wagered per user
+The analysis showed that the total amount wagered per user varied significantly. Some users placed small and frequent bets, while others wagered large sums in a few sessions.
+This suggests that there are two types of players: those who play conservatively and those who place large bets looking for quick wins.
 
-Conclusions and Lessons Learned
-Players with higher activity and spend have a lower dropout rate, suggesting that incentivizing early engagement improves retention. 
-Cohort data shows a steady decline in retention, highlighting the need for loyalty campaigns at key moments. 
-Machine Learning models can predict with good accuracy which players are at risk of dropping out, allowing recovery strategies to be customized. 
-It is advisable to combine user segmentation strategies with predictive models to optimize business performance in iGaming.
+4.2. Winning Rate per User
+The win rate varied according to the behavior of each player. It was observed that some players had a high winning rate (over 60%), while others had a loss rate of over 80%. 
+This could be related to the type of game they participated in or the betting style they adopted.
+
+4.3. Bets by Type of Game
+The results showed that most bets were placed on roulette and slot machines, these being the categories with the highest volume of bets. 
+Blackjack had a lower participation, which may be due to the fact that it is a more strategic game and less accessible to some users.
+
+4.4. Betting Trends Over Time
+Temporal patterns in wagering were identified. 
+Weekends (Friday through Sunday) were the days with the highest betting volume, with a particularly high peak during Friday and Saturday nights.
+
+4.5. Results of Wins vs. Losses
+Analysis of the betting results indicated that most players lost more than they won. However, a small percentage of players won a significant amount of money, which could be indicative of players with an effective strategy or some luck.
+
+5. Conclusions
+From the results obtained, several key conclusions can be drawn:
+Diversity in player behavior: players show very diverse behavior in terms of amounts wagered and win rates. Some prefer small and frequent bets, while others take risks with large amounts.
+Casino has long-term advantage: Results show that most players lose more than they win, which is a common feature of gambling.
+Popularity of certain games: Games such as roulette and slot machines dominate the market, while games such as blackjack are less popular, which could be an opportunity for targeted promotions or user interface improvements to attract more players.
+Time patterns: Weekends are the days with the highest gambling activity, which may indicate an opportunity for marketing campaigns targeted at these peak traffic times.
+
+Optimizing the user experience: The low win rate of players suggests that the player experience could be improved through bonuses, promotions or adjustments to the gaming strategy to keep players more engaged.
+
+6. Recommendations
+Promotions on popular games: Since players are betting more on roulette and slot machines, targeted promotions or bonuses could be offered specifically for these games to increase player engagement.
+Loyalty strategies: With a high rate of losing players, a loyalty strategy offering bonuses or rewards could improve the player experience and reduce churn.
+Improve the blackjack interface: Since blackjack is one of the least popular games, improvements could be made to the user experience to make it more engaging, such as interactive tutorials or special events.
+Weekend-targeted campaigns: Take advantage of busy days, such as weekends, to launch marketing campaigns or promotions targeting active players during those periods.
+
