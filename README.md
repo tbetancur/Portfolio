@@ -1,6 +1,6 @@
 IGaming Data Analysis Portfolio
 
-Project: Dropout Prediction and Cohort Analysis
+Project: Analysis and Prediction of Player Behavior in iGaming
 
 About
 Hi, I'm Tatiana! I have a strong background in Health Information Systems and a specialization in Analytics. Throughout my career, I have developed technical and analytical expertise, enabling me to leverage data to optimize processes and improve operational efficiency in the healthcare sector.
@@ -13,5 +13,7 @@ Additionally, I implemented process improvements that optimized systematization,
 
 
 📧 Email: betancurtm93@gmail.com.com
+
 🔗 LinkedIn: linkedin.com/in/tatiana-betancur
+
 📂 GitHub: github.com/tbetancur
