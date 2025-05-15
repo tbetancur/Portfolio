@@ -1,19 +1,36 @@
-IGaming Data Analysis Portfolio
+# Tatiana Betancur - Data Analysis Portfolio
 
-Project: Analysis and Prediction of Player Behavior in iGaming
+Welcome, I'm Tatiana! a data analyst with over 5 year of experience transforming complex information into actionable insights.
+My background in Health Information Systems and public data has given me solid foundation in process optimization, strategic reporting, and business intelligence.
 
-About
-Hi, I'm Tatiana! I have a strong background in Health Information Systems and a specialization in Analytics. Throughout my career, I have developed technical and analytical expertise, enabling me to leverage data to optimize processes and improve operational efficiency in the healthcare sector.
+This portfolio showcases real projects I've built using **Power BI, and Python**, applyng data analysis to industries like **IGaming**, **public health**, and **finance**
 
-I contributed significantly to the development of systems that enhanced operational efficiency by automating key processes and ensuring coordinated execution. I also conducted impactful research on the importance of physical activity within the community, providing statistical analyses that supported initiatives aimed at improving health and wellness.
+---
 
-With advanced skills in Python, Power BI, and Excel, I created detailed reports and impactful visualizations that simplified complex data, enabling better decision-making and contributing to improvements in citizens' quality of life. I led the transition from paper to digital workflows, implementing solutions that streamlined operations, improved information accessibility, and enhanced decision-making capabilities across teams.
+## Projects
 
-Additionally, I implemented process improvements that optimized systematization, achieving significant cost savings, boosting productivity, and improving overall work efficiency.
+### 1. [ iGaming Dashboard - Payer & Revenue Analysis (Power BI)] 
+Interactive dashboard exploring player behavior, financil performance, and bonus efficiency in the iGaming sector.
 
+### 2. [Healt Data Cleaning & Exploration (Python)]
+Notebook demonstrating data cleaning, exploration and visualization using pandas, seaborn and matplotlib.
 
+### 3. **Coming soon* - Personal Budget automation (Excel)**
+An Excl tracker to monitor monthly income, expenses, and generate insights with charts and dynamic formulas.
+
+---
+
+## Skills & Tools
+--**Excel** - advance formulas, pivot tables, dashboards
+--**Power BI** - interactive dashboards, data modeling, DAX 
+--**Python** - pandas, matplotlib, seaborn (currently improving)
+--Data storytelling | process automation | Remote   collaboration
+
+---
+
+## Let's connect
 📧 Email: betancurtm93@gmail.com.com
-
 🔗 LinkedIn: linkedin.com/in/tatiana-betancur
 
-📂 GitHub: github.com/tbetancur
+---
+*This portfolio is a living document. I'm continuously adding new projects and growing my skills as I transition fully into the tech and data world.*
