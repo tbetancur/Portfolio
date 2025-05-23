@@ -9,10 +9,10 @@ This portfolio showcases real projects I've built using **Power BI, and Python**
 
 ## Projects
 
-### 1. [ iGaming Dashboard - Payer & Revenue Analysis (Power BI)] 
+### 1.  iGaming Dashboard - Payer & Revenue Analysis (Power BI)
 Interactive dashboard exploring player behavior, financil performance, and bonus efficiency in the iGaming sector.
 
-### 2. [Healt Data Cleaning & Exploration (Python)]
+### 2. Healt Data Cleaning & Exploration (Python)
 Notebook demonstrating data cleaning, exploration and visualization using pandas, seaborn and matplotlib.
 
 ### 3. **Coming soon* - Personal Budget automation (Excel)**
